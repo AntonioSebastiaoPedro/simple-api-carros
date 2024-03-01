@@ -1,6 +1,6 @@
 <?php
 
-$pdo = new PDO(dsn: 'mysql:host=127.0.0.1;dbname=carapp;port=3300', username: 'root', password: 123456);
+$pdo = new PDO(dsn: 'mysql:host=127.0.0.1;dbname=carsapi;port=3300', username: 'antonio', password: "root");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $pdo->query('

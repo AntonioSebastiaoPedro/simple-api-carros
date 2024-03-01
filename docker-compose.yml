@@ -5,5 +5,5 @@ services:
     ports:
       - "3300:3306"
     environment:
-      - MARIADB_ROOT_PASSWORD=123456
-      - MARIADB_DATABASE=carapp
+      - MARIADB_ROOT_PASSWORD=root
+      - MARIADB_DATABASE=carsapi
